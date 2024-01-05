@@ -32,6 +32,12 @@ De ce va da eroare? Cum putem rezolva eroarea?
 """
 
 """
+R: Primim eroare ca nu a putut fi instantiata clasa GradinitaPrivata
+cu metoda abstrata ora_de_somn deoarece aceasta lipseste din clasa
+GradinitaPrivata
+"""
+
+"""
 4. Creati o clasa, GradinitaPublica25, care sa mosteneasca clasa GradinitaPublica.
 Implementati metoda activitate_practica() in felul urmator:
 - printati mesajul "Copiii se joaca in curte pe balansoar.
@@ -39,6 +45,11 @@ Implementati metoda activitate_practica() in felul urmator:
 - Instantiati un obiect din clasa GradinitaPublica25.
 - Prin intermediul obiectului instantiat, apelati toate metodele disponibile
 si observati rezultatele.
+
+
+R: Pentru clasa GradinitaPublica25 se poate apela si metoda ora_de_somn() fara 
+a fi definita in interiorul clasei, deoarece clasa GradinitaPublica25 mosteneste
+GradinitaPublica iar metoda ora_de_somn se afla in clasa parinte
 """
 
 """
